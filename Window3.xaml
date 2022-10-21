@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApplication4.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication4"
+        mc:Ignorable="d"
+        Title="Student Login Page" Height="381.278" Width="375.546" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid Background="#FF111822">
+            <Label x:Name="label" Content="Student Login Page" HorizontalAlignment="Left" Margin="0,0,0.2,0" VerticalAlignment="Top" Height="54" Width="395" FontSize="28" FontWeight="Bold" Background="#FFFFB713" Foreground="Black" FontFamily="Microsoft Sans Serif" BorderBrush="#FFFFB713"/>
+            <Button x:Name="button1" Content="LOGIN" HorizontalAlignment="Left" Margin="21,248,0,0" VerticalAlignment="Top" Width="323" Height="59" FontSize="28" Click="button1_Click" BorderBrush="#FF47B2DA" Background="#FFF2672E" Foreground="#FFFCFCFC" FontFamily="Segoe UI Semibold"/>
+            <TextBox x:Name="user" HorizontalAlignment="Left" Height="39" Margin="148,105,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="196" FontSize="22"/>
+            <Label x:Name="label1" Content="Student ID" HorizontalAlignment="Left" Margin="21,105,0,0" VerticalAlignment="Top" Width="127" FontWeight="Bold" FontSize="20" Height="53" Foreground="White"/>
+            <Label x:Name="label2" Content="Password" HorizontalAlignment="Left" Margin="21,174,0,0" VerticalAlignment="Top" Width="111" FontWeight="Bold" FontSize="22" Height="37" Foreground="White"/>
+            <PasswordBox x:Name="passw" HorizontalAlignment="Left" Margin="148,174,0,0" VerticalAlignment="Top" Width="196" Height="37" Background="White" FontSize="22"/>
+
+        </Grid>
+    </Grid>
+</Window>

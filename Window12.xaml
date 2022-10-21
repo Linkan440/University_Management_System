@@ -1,0 +1,43 @@
+﻿<Window x:Class="WpfApplication4.Window12"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication4"
+        mc:Ignorable="d"
+        Title="Window12" Height="455.72" Width="1077.257" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid Background="#FF9DA080">
+            <Label x:Name="label" Content="                           Teacher's Info" HorizontalAlignment="Left" VerticalAlignment="Top" Height="76" Width="1069" FontSize="49.333" FontWeight="Bold" Background="#FF95B1EC"/>
+            <Label x:Name="label1" Content="Name" HorizontalAlignment="Left" Margin="31,104,0,0" VerticalAlignment="Top" Height="39" Width="90" FontWeight="Bold" FontSize="20"/>
+            <Label x:Name="label2" Content="Address" HorizontalAlignment="Left" Margin="27,209,0,0" VerticalAlignment="Top" Height="35" Width="96" FontWeight="Bold" FontSize="20"/>
+            <Label x:Name="label3" Content="Mobile" HorizontalAlignment="Left" Margin="29,257,0,0" VerticalAlignment="Top" Height="38" Width="92" FontWeight="Bold" FontSize="20"/>
+            <Label x:Name="label4" Content="Email" HorizontalAlignment="Left" Margin="31,307,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20" Width="90" Height="37"/>
+            <Button x:Name="button" Content="Save" HorizontalAlignment="Left" Margin="143,366,0,0" VerticalAlignment="Top" Width="89" Height="36" FontSize="24" BorderBrush="#FF47B2DA" Background="#FFB8BF99" Click="button_Click" FontWeight="Bold"/>
+            <TextBox x:Name="n" HorizontalAlignment="Left" Height="39" Margin="125,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" FontSize="20" Background="#FF6CE6E6"/>
+            <TextBox x:Name="a" HorizontalAlignment="Left" Height="34" Margin="125,211,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" FontSize="20" Background="#FF847489"/>
+            <TextBox x:Name="m" HorizontalAlignment="Left" Height="34" Margin="125,259,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162" FontSize="20" RenderTransformOrigin="0.317,1.618" Background="#FFD67A57"/>
+            <TextBox x:Name="em" HorizontalAlignment="Left" Height="37" Margin="125,307,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" FontSize="20" Background="#FF8F546F"/>
+            <Label x:Name="label1_Copy" Content="ID" HorizontalAlignment="Left" Margin="31,158,0,0" VerticalAlignment="Top" Height="32" Width="90" FontWeight="Bold" FontSize="20"/>
+            <TextBox x:Name="i" HorizontalAlignment="Left" Height="36" Margin="125,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="161" FontSize="20" Background="#FFB4D34A"/>
+            <Button x:Name="button1" Content="View" HorizontalAlignment="Left" Height="35" Margin="314,104,0,0" VerticalAlignment="Top" Width="98" Click="button1_Click" FontSize="24" FontWeight="Bold" Background="#FFE4B6B6"/>
+            <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="142" Margin="311,159,0,0" VerticalAlignment="Top" Width="741" ColumnWidth="*" AlternationCount="2" Background="#FF9DCD8B">
+                <DataGrid.RowBackground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FF8F8230" Offset="0"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </DataGrid.RowBackground>
+                <DataGrid.AlternatingRowBackground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFDEEBEE" Offset="0"/>
+                        <GradientStop Color="#FF70ADBB" Offset="1"/>
+                        <GradientStop Color="#FF6ED3EC" Offset="0.699"/>
+                    </LinearGradientBrush>
+                </DataGrid.AlternatingRowBackground>
+            </DataGrid>
+
+        </Grid>
+
+    </Grid>
+</Window>

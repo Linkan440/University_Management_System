@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfApplication4.Window15"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication4"
+        mc:Ignorable="d"
+        Title="Window15" Height="452.798" Width="373.758" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid Background="#FF5AFA4F">
+            <Label x:Name="label" Content="Student Info" HorizontalAlignment="Left" VerticalAlignment="Top" Height="38" Width="367" FontWeight="Bold" FontSize="20" Background="#FF72FFA1"/>
+            <Label x:Name="label1" Content="Name" HorizontalAlignment="Left" Margin="31,53,0,0" VerticalAlignment="Top" Height="37" Width="90" FontWeight="Bold" FontSize="18"/>
+            <Label x:Name="label2" Content="Address" HorizontalAlignment="Left" Margin="31,132,0,0" VerticalAlignment="Top" Height="35" Width="117" FontWeight="Bold" FontSize="18"/>
+            <Label x:Name="label3" Content="Mobile" HorizontalAlignment="Left" Margin="31,169,0,0" VerticalAlignment="Top" Height="33" Width="117" FontWeight="Bold" FontSize="18"/>
+            <Label x:Name="label4" Content="Email" HorizontalAlignment="Left" Margin="31,207,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Width="90" Height="36"/>
+            <Button x:Name="button" Content="Update" HorizontalAlignment="Left" Margin="44,360,0,0" VerticalAlignment="Top" Width="104" Height="34" FontWeight="Bold" FontSize="16" Click="button_Click" Background="#FF00FFDF" Foreground="#FFBB00D3" BorderBrush="#FF9C6464"/>
+            <TextBox x:Name="text" HorizontalAlignment="Left" Height="32" Margin="180,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" FontSize="18"/>
+            <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="180,132,0,0" TextWrapping="Wrap" Width="146" Height="32" VerticalAlignment="Top" FontSize="18"/>
+            <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="32" Margin="180,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" FontSize="18"/>
+            <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="32" Margin="180,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" FontSize="18"/>
+            <Label x:Name="label1_Copy" Content="ID" HorizontalAlignment="Left" Margin="31,95,0,0" VerticalAlignment="Top" Height="37" Width="90" FontWeight="Bold" FontSize="18"/>
+            <Label x:Name="label1_Copy1" Content="Guardian Mobile" HorizontalAlignment="Left" Margin="31,285,0,0" VerticalAlignment="Top" Height="50" Width="152" FontWeight="Bold" FontSize="16"/>
+            <Label x:Name="label1_Copy2" Content="Date of Birth" HorizontalAlignment="Left" Margin="31,243,0,0" VerticalAlignment="Top" Height="37" Width="126" FontWeight="Bold" FontSize="18"/>
+            <TextBox x:Name="textBox3_Copy" HorizontalAlignment="Left" Height="35" Margin="180,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" FontSize="18"/>
+            <TextBox x:Name="textBox3_Copy1" HorizontalAlignment="Left" Height="29" Margin="180,245,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" FontSize="18"/>
+            <TextBox x:Name="textBox3_Copy2" HorizontalAlignment="Left" Height="32" Margin="180,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" FontSize="18"/>
+            <Button x:Name="button_Copy" Content="Cancel" HorizontalAlignment="Left" Margin="194,360,0,0" VerticalAlignment="Top" Width="122" Height="34" FontWeight="Bold" FontSize="16" Click="button_Copy_Click" Background="#FFFF044C" Foreground="White"/>
+
+        </Grid>
+    </Grid>
+</Window>

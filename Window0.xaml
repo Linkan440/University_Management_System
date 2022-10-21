@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApplication4.Window0"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication4"
+        mc:Ignorable="d"
+        Title="Window0" Height="242.151" Width="374.705" AllowsTransparency="True" WindowStyle="None" WindowStartupLocation="CenterScreen" BorderThickness="0">
+    <Grid>
+        <Grid>
+            <Image x:Name="_21_jpg" Source="21.jpg" Stretch="Fill"/>
+            <Label x:Name="label" Content="Welcome to " HorizontalAlignment="Left" Margin="160,11,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="48" FontFamily="Pristina"/>
+            <Label x:Name="label_Copy" Content="University Office Management &#xA;&#x9;System" HorizontalAlignment="Left" Margin="19,84,0,0" VerticalAlignment="Top" FontWeight="Bold" Width="326" FontFamily="Pristina" FontSize="28"/>
+            <Label x:Name="label1" Content="Version 1.0" HorizontalAlignment="Left" Margin="217,149,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Script MT Bold" FontSize="14"/>
+            <Button x:Name="button" Content="Please Enter" HorizontalAlignment="Left" Margin="19,196,0,0" VerticalAlignment="Top" Width="103" Background="#FF83C175" Click="button_Click" Height="29" FontFamily="Script MT Bold" FontSize="18"/>
+
+        </Grid>
+    </Grid>
+</Window>
